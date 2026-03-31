@@ -36,4 +36,4 @@ RUN python -m camoufox fetch
 EXPOSE 7860
 
 # 启动命令：强制指定浏览器类型为 camoufox
-CMD ["python", "api_solver.py", "--host", "0.0.0.0", "--port", "7860", "--browser_type", "camoufox", "--thread", "2", "--debug"]
+CMD ["python", "api_solver.py", "--host", "0.0.0.0", "--port", "7860", "--browser_type", "camoufox", "--thread", "5", "--debug"]
